@@ -1,0 +1,126 @@
+/*Encabezado*/
+.vh-35{
+    height: 35vh;
+}
+.vh-96{
+    height: 96vh;
+}
+
+.h-5 {
+    height: 5%;
+}
+
+.img-carrousel {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.carousel-control-next {
+    top: 90% !important;
+    right: 5%;
+    padding: 0 !important;
+    width: auto !important;
+}
+
+.carousel-control-prev {
+    top: 90% !important;
+    left: 85% !important;
+    padding: 0 !important;
+    width: auto !important;
+}
+
+.start-3 {
+    left: 3% !important;
+}
+
+/*iconos*/
+.socials-container {
+    width: fit-content;
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 25px;
+    background-color: #00000000;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+.twitter:hover {
+    background: linear-gradient(45deg, #66757f, #00acee, #36daff, #dbedff);
+}
+
+.facebook:hover {
+    background: linear-gradient(45deg, #134ac0, #316ff6, #78a3ff);
+}
+
+.google-plus:hover {
+    background: linear-gradient(45deg, #872419, #db4a39, #ff7061);
+}
+
+.instagram:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg,
+            #f09433 0%,
+            #e6683c 25%,
+            #dc2743 50%,
+            #cc2366 75%,
+            #bc1888 100%);
+    background: -webkit-linear-gradient(45deg,
+            #f09433 0%,
+            #e6683c 25%,
+            #dc2743 50%,
+            #cc2366 75%,
+            #bc1888 100%);
+    background: linear-gradient(45deg,
+            #f09433 0%,
+            #e6683c 25%,
+            #dc2743 50%,
+            #cc2366 75%,
+            #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.social svg {
+    fill: white;
+    height: 20px;
+}
+
+/*quienes somos*/
+.order{
+    display: flex;
+    
+}
+
+/*alianzas*/
+.vh-25{
+    height: 25vh;
+}
+
+/*contactos*/
+.vh-50{
+    height: 50vh;
+}
+
+.bg-shadow{
+    background-color: #3d3d3da1;
+    backdrop-filter: blur(15px);
+    border: 2px solid white;
+}
+
+.img-contact {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}

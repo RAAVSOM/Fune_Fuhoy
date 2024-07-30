@@ -1,12 +1,14 @@
 {
   "name": "fune-fuhoy",
   "version": "0.0.0",
+  "homepage": "https://raavsom.github.io/Fune_Fuhoy/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "deploy": "npm run build && gh-page -d dist/fune-fuhoy",
     "serve:ssr:Fune_Fuhoy": "node dist/fune-fuhoy/server/server.mjs"
   },
   "private": true,
